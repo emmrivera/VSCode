@@ -5,17 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Java Debugger",
+            "name": "Java Debug",
             "type": "java",
             "request": "launch",
             "mainClass": "${file}",
+            "preLaunchTask": "Java Build",
             "console": "integratedTerminal"
-            
+
             // Change console if not requiring input for cleaner output in Terminal
             // "console": "internalConsole"
         },
         {
-            "name": "C++ Debugger",
+            "name": "C++ Debug",
             "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
