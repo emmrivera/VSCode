@@ -5,26 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug",
+            "name": "Java Debugger",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "integratedTerminal"
+            
+            // Change console if not requiring input for cleaner output in Terminal
+            // "console": "internalConsole"
+        },
+        {
+            "name": "C++ Debugger",
             "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
             "cwd": "${workspaceFolder}",
-            "preLaunchTask": "C/C++: clang++ build active file"
+            "preLaunchTask": "C/C++ Build"
         }
-        // {
-        //     "name": "clang++ - Build and debug active file",
-        //     "type": "cppdbg",
-        //     "request": "launch",
-        //     "program": "${fileDirname}/${fileBasenameNoExtension}",
-        //     "args": [],
-        //     "stopAtEntry": false,
-        //     "cwd": "${workspaceFolder}",
-        //     "environment": [],
-        //     "externalConsole": false,
-        //     "MIMode": "lldb",
-        //     "preLaunchTask": "C/C++: clang++ build active file"
-        // }
     ]
 }

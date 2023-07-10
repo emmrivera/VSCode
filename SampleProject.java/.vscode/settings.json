@@ -9,6 +9,18 @@
         "iosfwd": "cpp",
         "ostream": "cpp",
         "string": "cpp",
-        "istream": "cpp"
-    }
+        "istream": "cpp",
+        "__bit_reference": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "ios": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
+    },
+    "java.debug.settings.console": "integratedTerminal",
+    "code-runner.clearPreviousOutput": false,
+    "debug.terminal.clearBeforeReusing": true
 }

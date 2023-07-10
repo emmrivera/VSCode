@@ -1,11 +1,12 @@
-public class LeetCode {
-    public static void main(String[] args) {
-        int[] array = {1, 2, 3};
-        int result = findSolution(array);
-        System.out.println(result);
-    }
+import java.util.Scanner;
 
-    public static int findSolution(int[] array) {
-        return 0;
+public class LeetCode {
+    static Scanner scan = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.print("Type a number: ");
+        int num = scan.nextInt();
+
+        System.out.println("Output: " + num);
     }
 }
